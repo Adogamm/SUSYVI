@@ -51,7 +51,7 @@
             android:padding="10dp"
             android:textColor="#fff"
             android:background="#265528"
-            android:text="Nueva lectura"
+            android:text="Realizar lectura"
             android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
