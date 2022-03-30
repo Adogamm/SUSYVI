@@ -73,6 +73,8 @@ class MainActivity : AppCompatActivity() {
 
                 try {
                     if (isCameraPermissionGranted()) {
+                        count = 1
+                        mCameraSource.start(surface_camera_preview.holder)
                         cameraButton.setOnClickListener{
                             mCameraSource.start(surface_camera_preview.holder)
                             count = 1
